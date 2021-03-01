@@ -64,7 +64,6 @@ def get_git_author(git_url):
 
 
 def complete_metadata(app_name, metadata, git_url):
-    metadata.setdefault('state', 'registered')
     metadata.setdefault('title', app_name)
     if git_url:
         metadata.setdefault('authors', get_git_author(git_url))
