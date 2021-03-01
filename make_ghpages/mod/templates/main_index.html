@@ -22,16 +22,19 @@
       <div class="submenu-text">
         <h2>
           <a href="{{ app.subpage }}">{{ app.metadata.title }}</a>
-          {% if app.categories %} {% for category in app.categories %} 
-          {% if "chemicalMethodsOnotology" in categories[category].keys() %}
-          <span class="category"> 
-            <a href="https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_" + {{ categories[category]["chemicalMethodsOnotology"] }}> categories[category]["title"] (CHMO: {{ categories[category]["chemicalMethodsOnotology"] }}</a> }
-            }</span>
-            {% else %}
-            <span class="category">{{ categories[category]["title"] }}</span>
-          {% endif %}
-          {% endfor %} 
-          {% endif %}
+          {% if app.categories %} {% for category in app.categories %} {% if
+          "chemicalMethodsOnotology" in categories[category].keys() %}
+          <span class="category">
+            <a
+              href="https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_+ " ~ {{ categories[category]['chemicalMethodsOnotology'] }}
+            >
+              {{ categories[category]["title"] }} (CHMO: {{
+              categories[category]["chemicalMethodsOnotology"] }}</a
+            >
+         </span>
+          {% else %}
+          <span class="category">{{ categories[category]["title"] }}</span>
+          {% endif %} {% endfor %} {% endif %}
         </h2>
         <p class="packagename">
           Package name: {{ app_name }} {% if app.hosted_on %} (hosted on
