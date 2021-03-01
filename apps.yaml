@@ -3,7 +3,7 @@ isotherm-analysis:
     - field-materials-science
     - technique-isotherm
     - parser
-  git_url: https://github.com/cheminfo/isotherm-analysis
+  git_url: https://github.com/cheminfo/isotherm-analysis.git
   metadata:
     authors:
       $ref: https://raw.githubusercontent.com/cheminfo/isotherm-analysis/master/package.json#author
@@ -17,7 +17,7 @@ tga-spectrum:
     - field-materials-science
     - technique-thermogravimetry
     - parser
-  git_url: https://github.com/cheminfo/tga-spectrum
+  git_url: https://github.com/cheminfo/tga-spectrum.git
   metadata:
     authors:
       $ref: https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/package.json#author

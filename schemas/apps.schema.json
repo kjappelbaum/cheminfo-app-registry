@@ -12,7 +12,7 @@
           "patternProperties": {
               ".*": {"$ref": "#/definitions/App"}
           },
-          "title": "Schema for the BIG-MAP apps registry."
+          "title": "Schema for the cheminfo apps registry."
       },
       "App": {
           "type": "object",
