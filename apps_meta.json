@@ -168,15 +168,18 @@
     },
     "technique-isotherm": {
       "description": "Tool for gas adsorption isotherms.",
-      "title": "Isotherm"
+      "title": "Isotherm",
+      "chemicalMethodsOnotology": "0001992"
     },
     "technique-thermogravimetry": {
       "description": "Tool for thermogravimetric analysis.",
-      "title": "TGA"
+      "title": "TGA",
+      "chemicalMethodsOnotology": "0000690"
     },
     "technique-xrd": {
       "description": "Tool for X-ray diffraction analysis.",
-      "title": "XRD"
+      "title": "XRD",
+      "chemicalMethodsOnotology": "0000156"
     }
   }
 }
