@@ -28,3 +28,18 @@ tga-spectrum:
     logo: https://raw.githubusercontent.com/cheminfo/font/master/src/tga/assignment.svg
     version:
       $ref: https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/package.json#version
+xrd-analysis:
+  categories:
+    - field-materials-science
+    - technique-xrd
+    - parser
+  git_url: https://github.com/cheminfo/xrd-analysis.git
+  metadata:
+    authors:
+      $ref: https://raw.githubusercontent.com/cheminfo/xrd-analysis/master/package.json#author
+    description:
+      $ref: https://raw.githubusercontent.com/cheminfo/xrd-analysis/master/package.json#description
+    title: xrd-analysis
+    logo: https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg
+    version:
+      $ref: https://raw.githubusercontent.com/cheminfo/xrd-analysis/master/package.json#version
