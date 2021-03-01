@@ -89,15 +89,16 @@ xps-analysis:
       $ref: https://raw.githubusercontent.com/cheminfo/xps-analysis/master/package.json#version
 fluid-properties:
   categories:
+    - field-materials-science
     - field-physical-chemistry
     - technique-isotherm
   git_url: https://github.com/cheminfo/fluid-properties.git
   metadata:
     authors:
-      $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties./master/package.json#author
+      $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties/master/package.json#author
     description:
-      $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties./master/package.json#description
-    title: baselines
+      $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties/master/package.json#description
+    title: fluid-properties
     #logo: https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal2.svg
     version:
       $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties/master/package.json#version
