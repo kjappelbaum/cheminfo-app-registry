@@ -37,7 +37,7 @@
                     {% if app.hosted_on %} (hosted on <a href="{{ app.git_url }}">{{ app.hosted_on }}</a>){% endif %}
                 </p>
                 <p class="currentstate">Current state: {{ app.metadata.state }}
-                    {% if app.metadata.version %} (version {{ app.metadata.version }}){% endif %}
+                    {% if app.metadata.version %} version {{ app.metadata.version }}{% endif %}
                 </p>
 
                 {% if app.metadata.description %}
