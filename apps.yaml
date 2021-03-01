@@ -10,6 +10,7 @@ isotherm-analysis:
     description:
       $ref: https://raw.githubusercontent.com/cheminfo/isotherm-analysis/master/package.json#description
     title: isotherm-analysis
+    logo: https://raw.githubusercontent.com/cheminfo/font/master/src/isotherm/assignment.svg
     version:
       $ref: https://raw.githubusercontent.com/cheminfo/isotherm-analysis/master/package.json#version
 tga-spectrum:
@@ -24,5 +25,6 @@ tga-spectrum:
     description:
       $ref: https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/package.json#description
     title: tga-spectrum
+    logo: https://raw.githubusercontent.com/cheminfo/font/master/src/tga/assignment.svg
     version:
       $ref: https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/package.json#version
