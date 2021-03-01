@@ -7,12 +7,12 @@ field-materials-science:
 technique-isotherm:
   description: Tool for gas adsorption isotherms.
   title: Isotherm
-  # chemicalMethodsOnotology: "0001992"
+  chemicalMethodsOnotology: "0001992"
 technique-thermogravimetry:
   description: Tool for thermogravimetric analysis.
   title: TGA
-  # chemicalMethodsOnotology: "0000690"
+  chemicalMethodsOnotology: "0000690"
 technique-xrd:
   description: Tool for X-ray diffraction analysis.
   title: XRD
-  # chemicalMethodsOnotology: "0000156"
+  chemicalMethodsOnotology: "0000156"
