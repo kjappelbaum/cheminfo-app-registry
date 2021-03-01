@@ -28,6 +28,21 @@ tga-spectrum:
     logo: https://raw.githubusercontent.com/cheminfo/font/master/src/tga/assignment.svg
     version:
       $ref: https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/package.json#version
+dsc-spectrum:
+  categories:
+    - field-materials-science
+    - technique-dsc
+    - parser
+  git_url: https://github.com/cheminfo/dsc-spectrum.git
+  metadata:
+    authors:
+      $ref: https://raw.githubusercontent.com/cheminfo/dsc-spectrum/master/package.json#author
+    description:
+      $ref: https://raw.githubusercontent.com/cheminfo/dsc-spectrum/master/package.json#description
+    title: dsc-spectrum
+    logo: https://raw.githubusercontent.com/cheminfo/font/master/src/dsc/assignment.svg
+    version:
+      $ref: https://raw.githubusercontent.com/cheminfo/dsc-spectrum/master/package.json#version
 xrd-analysis:
   categories:
     - field-materials-science
@@ -43,3 +58,46 @@ xrd-analysis:
     logo: https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg
     version:
       $ref: https://raw.githubusercontent.com/cheminfo/xrd-analysis/master/package.json#version
+baselines:
+  categories:
+    - data-processing
+  git_url: https://github.com/cheminfo/baselines.git
+  metadata:
+    authors:
+      $ref: https://raw.githubusercontent.com/cheminfo/baselines/master/package.json#author
+    description:
+      $ref: https://raw.githubusercontent.com/cheminfo/baselines/master/package.json#description
+    title: baselines
+    logo: https://raw.githubusercontent.com/cheminfo/font/master/src/chart/scatter.svg
+    version:
+      $ref: https://raw.githubusercontent.com/cheminfo/baselines/master/package.json#version
+xps-analysis:
+  categories:
+    - field-materials-science
+    - field-physical-chemistry
+    - technique-xps
+    - parser
+  git_url: https://github.com/cheminfo/xps-analysis.git
+  metadata:
+    authors:
+      $ref: https://raw.githubusercontent.com/cheminfo/xps-analysis/master/package.json#author
+    description:
+      $ref: https://raw.githubusercontent.com/cheminfo/xps-analysis/master/package.json#description
+    title: baselines
+    logo: https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal2.svg
+    version:
+      $ref: https://raw.githubusercontent.com/cheminfo/xps-analysis/master/package.json#version
+fluid-properties:
+  categories:
+    - field-physical-chemistry
+    - technique-isotherm
+  git_url: https://github.com/cheminfo/fluid-properties.git
+  metadata:
+    authors:
+      $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties./master/package.json#author
+    description:
+      $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties./master/package.json#description
+    title: baselines
+    #logo: https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal2.svg
+    version:
+      $ref: https://raw.githubusercontent.com/cheminfo/fluid-properties/master/package.json#version
