@@ -20,9 +20,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r ./make_ghpages/requirements.txt
           pip install -r ./schemas/tests/requirements.txt
-      - name: Test with pytest
-        run: |
-          pytest
+      # - name: Test with pytest
+      #   run: |
+      #     pytest
       - name: Build GH pages
         run: |
           python "${GITHUB_WORKSPACE}/make_ghpages/make_pages.py"
