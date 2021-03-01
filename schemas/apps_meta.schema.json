@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://kjappelbaum.github.io/cheminfo-app-registry/schemas/v1/apps_meta.schema.json",
+    "$id": "https://aiidalab.github.io/aiidalab-registry/schemas/v1/apps_meta.schema.json",
     "$ref": "#/definitions/Welcome",
     "definitions": {
         "Welcome": {
@@ -52,7 +52,7 @@
                   "type": "string"
                 },
                 "metadata": {
-                    "$ref": "https://kjappelbaum.github.io/cheminfo-app-registry/schemas/v1/metadata.schema.json#/definitions/Welcome"
+                    "$ref": "https://aiidalab.github.io/aiidalab-registry/schemas/v1/metadata.schema.json#/definitions/Welcome"
                 },
                 "gitinfo": {
                     "$ref": "#/definitions/AppGitinfo"
@@ -92,7 +92,7 @@
             "type": "object",
             "additionalProperties": false,
             "patternProperties": {
-              ".*": {"$ref": "https://kjappelbaum.github.io/cheminfo-app-registry/schemas/v1/categories.schema.json#/definitions/Category"}
+              ".*": {"$ref": "https://aiidalab.github.io/aiidalab-registry/schemas/v1/categories.schema.json#/definitions/Category"}
             }
         }
     }
