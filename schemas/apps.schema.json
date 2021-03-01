@@ -3,39 +3,45 @@
   "$id": "https://kjappelbaum.github.io/cheminfo-app-registry/schemas/v1/apps.schema.json",
   "$ref": "#/definitions/Welcome",
   "definitions": {
-    "Welcome": {
-      "type": "object",
-      "propertyNames": {
-        "pattern": "^[A-Za-z][A-Za-z0-9-_]*$"
+      "Welcome": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[A-Za-z][A-Za-z0-9-_]*$"
+          },
+          "additionalProperties": false,
+          "patternProperties": {
+              ".*": {"$ref": "#/definitions/App"}
+          },
+          "title": "Schema for the BIG-MAP apps registry."
       },
-      "additionalProperties": false,
-      "patternProperties": {
-        ".*": { "$ref": "#/definitions/App" }
-      },
-      "title": "Schema for the cheminfo apps registry."
-    },
-    "App": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "git_url": {
-          "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": ["https"],
-          "qt-uri-extensions": [".git"]
-        },
-        "metadata": {
-          "$ref": "https://kjappelbaum.github.io/cheminfo-app-registry/schemas/v1/metadata.schema.json#/definitions/Welcome"
-        },
-        "categories": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": ["metadata"],
-      "title": "Cheminfo app registry app entry"
-    }
+      "App": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "git_url": {
+                  "type": "string",
+                  "format": "uri",
+                  "qt-uri-protocols": [
+                      "https"
+                  ],
+                  "qt-uri-extensions": [
+                      ".git"
+                  ]
+              },
+              "metadata": {
+                "$ref": "https://kjappelbaum.github.io/cheminfo-app-registry/schemas/v1/metadata.schema.json#/definitions/Welcome"
+              },
+              "categories": {
+                  "type": "array",
+                  "items": {
+                      "type": "string"
+                  }
+              }
+          },
+          "required": [
+              "metadata"
+          ],
+          "title": "Cheminfo apps registry app entry"
+      }
   }
 }
