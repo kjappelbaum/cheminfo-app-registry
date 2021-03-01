@@ -21,10 +21,16 @@
         <div class="app-card-text">
             <h1>{{ metadata.title }}</h1>
             <p class="sub-header">
-            {% if categories %}
-                {% for category in categories %}
-                    <span class="category">{{ category_map[category]["title"] }}</span> 
-                {% endfor %}
+                {% if categories %} {% for category in metadata.categories %} {% if
+                    "chemicalMethodsOnotology" in metadata.categories[category].keys() %}
+                    <span class="category">
+                      <a
+                        href={{ "https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_+" ~  metadata.categories[category]["chemicalMethodsOnotology"] }}
+                      >
+                        {{ metadata.categories[category]["title"] }} (CHMO: {{
+                            metadata.categories[category]["chemicalMethodsOnotology"] }}</a
+                      >
+                   </span>
             {% else %}
                 No categories specified.<br>
             {% endif %}

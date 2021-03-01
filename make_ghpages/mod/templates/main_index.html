@@ -23,10 +23,10 @@
         <h2>
           <a href="{{ app.subpage }}">{{ app.metadata.title }}</a>
           {% if app.categories %} {% for category in app.categories %} {% if
-          "chemicalMethodsOnotology" in categories[category].keys() %}
+          "chemicalMethodsOnotology" in app.categories[category].keys() %}
           <span class="category">
             <a
-              href={{ "https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_+ " ~  categories[category]['chemicalMethodsOnotology'] }}
+              href={{ "https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_+ " ~  categories[category]["chemicalMethodsOnotology"] }}
             >
               {{ categories[category]["title"] }} (CHMO: {{
               categories[category]["chemicalMethodsOnotology"] }}</a
