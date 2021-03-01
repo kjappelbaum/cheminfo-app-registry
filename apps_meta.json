@@ -213,7 +213,7 @@
       "metadata": {
         "authors": "Luc Patiny",
         "description": "XPS analysis",
-        "title": "baselines",
+        "title": "xps-analysis",
         "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal2.svg",
         "version": "0.1.0"
       },
