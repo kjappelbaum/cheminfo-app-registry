@@ -28,7 +28,7 @@
           "chemicalMethodsOnotology" in categories[category].keys() %}
           <span class="category">
             <a
-              href="https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_+ " ~ {{ categories[category]['chemicalMethodsOnotology'] }}
+              href={{ "https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_+ " ~ categories[category]["chemicalMethodsOnotology"] }}
             >
               {{ categories[category]["title"] }} (CHMO: {{
               categories[category]["chemicalMethodsOnotology"] }}</a
