@@ -1,12 +1,18 @@
 parser:
-  description: Tools for parsing files. 
+  description: Tools for parsing files.
   title: Parser
-field-materials-science: 
-  description: Tools for materials science. 
-  title: Materials Science 
-technique-isotherm: 
-  description: Tool for gas adsorption isotherms. 
-  title: Isotherm 
-technique-thermogravimetry: 
-  description: Tool for thermogravimetric analysis. 
+field-materials-science:
+  description: Tools for materials science.
+  title: Materials Science
+technique-isotherm:
+  description: Tool for gas adsorption isotherms.
+  title: Isotherm
+  # chemicalMethodsOnotology: 0001992
+technique-thermogravimetry:
+  description: Tool for thermogravimetric analysis.
   title: TGA
+  # chemicalMethodsOnotology: 0000690
+technique-xrd:
+  description: Tool for X-ray diffraction analysis.
+  title: XRD
+  # chemicalMethodsOnotology: 0000156
