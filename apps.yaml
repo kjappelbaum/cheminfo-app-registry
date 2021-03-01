@@ -1,0 +1,29 @@
+isotherm-analysis:
+  categories:
+    - field-materials-science
+    - technique-isotherm
+    - parser
+  git_url: https://github.com/cheminfo/isotherm-analysis
+  metadata:
+    authors:
+      $ref: https://github.com/cheminfo/isotherm-analysis/blob/master/package.json#authors
+    description:
+      $ref: https://github.com/cheminfo/isotherm-analysis/blob/master/package.json#description
+    title: isotherm-analysis
+    version:
+      $ref: https://github.com/cheminfo/isotherm-analysis/blob/master/package.json#version
+tga-spectrum:
+  categories:
+    - field-materials-science
+    - technique-thermogravimetry
+    - parser
+  git_url: https://github.com/cheminfo/isotherm-analysis
+  metadata:
+    authors:
+      $ref: https://github.com/cheminfo/isotherm-analysis/blob/master/package.json#authors
+    description:
+      $ref: https://github.com/cheminfo/isotherm-analysis/blob/master/package.json#description
+    title: tga-spectrum
+    version:
+      $ref: https://github.com/cheminfo/isotherm-analysis/blob/master/package.json#version
+

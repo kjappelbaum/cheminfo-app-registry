@@ -27,7 +27,7 @@ _Feel free to propose a new app category to be added to [`category.yaml`](https:
 
    **Note**: Only the metadata fields `title` and `description` are mandatory.
 
-2. Your app will show up in the [Cheminfo App Store](cheminfo.github.io/cheminfo-registry") once your pull request is approved and merged.
+2. Your app will show up in the [Cheminfo App Store](cheminfo.github.io/cheminfo-app-registry") once your pull request is approved and merged.
 
 **Tip**: The app store supports the `$ref` syntax to reference externally hosted documents.
 That means you can reference metadata that is hosted at a different location, which makes it easier to dynamically update it.
@@ -70,4 +70,4 @@ _The app store will assume that external references are in JSON format unless th
 
 ## Acknowledgements
 
-This registry is based on the ones that were created for AiiDA, AiiDAlab and Big-Mao.
+This registry is based on the ones that were created for [AiiDA](https://aiidateam.github.io/aiida-registry/), [AiiDAlab](https://github.com/aiidalab/aiidalab-registry) and [BIG-MAP](https://github.com/BIG-MAP/big-map-registry).

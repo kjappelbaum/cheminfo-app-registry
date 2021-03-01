@@ -29,14 +29,14 @@ def metadata_schema():
 @pytest.fixture
 def mock_schema_endpoints(requests_mock, apps_schema, apps_meta_schema, categories_schema, metadata_schema):
     requests_mock.get(
-        "https://cheminfo.github.io/cheminfo-registry/schemas/v1/apps.schema.json",
+        "https://cheminfo.github.io/cheminfo-app-registry/schemas/v1/apps.schema.json",
         text=json.dumps(apps_schema))
     requests_mock.get(
-        "https://cheminfo.github.io/cheminfo-registry/schemas/v1/metadata.schema.json",
+        "https://cheminfo.github.io/cheminfo-app-registry/schemas/v1/metadata.schema.json",
         text=json.dumps(metadata_schema))
     requests_mock.get(
-        "https://cheminfo.github.io/cheminfo-registry/schemas/v1/apps_meta.schema.json",
+        "https://cheminfo.github.io/cheminfo-app-registry/schemas/v1/apps_meta.schema.json",
         text=json.dumps(apps_meta_schema))
     requests_mock.get(
-        "https://cheminfo.github.io/cheminfo-registry/schemas/v1/categories.schema.json",
+        "https://cheminfo.github.io/cheminfo-app-registry/schemas/v1/categories.schema.json",
         text=json.dumps(categories_schema))
