@@ -20,7 +20,10 @@
               },
               "description": {
                   "type": "string"
-              }
+              },
+              "chemicalMethodsOnotology": {
+                "type": "number"
+            }
           },
           "required": [
               "description",

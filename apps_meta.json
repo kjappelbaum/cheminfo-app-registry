@@ -112,6 +112,49 @@
       "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/tga/assignment.svg",
       "name": "tga-spectrum",
       "subpage": "apps/tga-spectrum.html"
+    },
+    "xrd-analysis": {
+      "categories": [
+        "field-materials-science",
+        "technique-xrd",
+        "parser"
+      ],
+      "git_url": "https://github.com/cheminfo/xrd-analysis.git",
+      "metadata": {
+        "authors": "Luc Patiny",
+        "description": "",
+        "title": "xrd-analysis",
+        "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg",
+        "version": "0.6.0"
+      },
+      "gitinfo": {
+        "HEAD": "3d256376e18b9d894e8e1be1cb0d9b152c2a4984",
+        "refs/heads/gh-pages": "234774da4122a630149b2c8cfb62fbfefa0f01e1",
+        "refs/heads/master": "3d256376e18b9d894e8e1be1cb0d9b152c2a4984",
+        "refs/heads/release-v0.5.0": "2ac8b0ed4f03b1dbf25d5b0b47fc7ce939640438",
+        "refs/heads/typos": "70c5256ed3c1f0b4954e2dd843b1a9a8dbabb82b",
+        "refs/heads/xconversion": "356e70c65dae080829f584b97b795a02b206a0c8",
+        "refs/pull/10/head": "3e47b70c5ff4c5b484dd6f8b3a06020afc4bb6bb",
+        "refs/pull/12/head": "356e70c65dae080829f584b97b795a02b206a0c8",
+        "refs/pull/13/head": "2ac8b0ed4f03b1dbf25d5b0b47fc7ce939640438",
+        "refs/pull/14/head": "70c5256ed3c1f0b4954e2dd843b1a9a8dbabb82b",
+        "refs/pull/15/head": "af8de2ffa3be03f7f50cb4616ec63947360c108c",
+        "refs/pull/7/head": "1d1aa90a5cfebf258b2a5d29844140c354cef2ef",
+        "refs/pull/9/head": "12d0a2b0363a2dc3317f38ef309149b99c8ee101",
+        "refs/tags/v0.0.1": "cb50967ddaf58ccc7a6cf777a24ea4b9b9339635",
+        "refs/tags/v0.0.2": "8ce55ddd91d41ff0604a459c4c14ef20f7d1036f",
+        "refs/tags/v0.0.2^{}": "9a5ce4b0a1412d17c6652d17f3e6f72cde799dc9",
+        "refs/tags/v0.1.0": "21b4126c8b588822afe8bceef2727af8c7732a4d",
+        "refs/tags/v0.2.0": "c65cd36fb893ae37d455b25d7e9f9af3a2e7db30",
+        "refs/tags/v0.3.0": "384a43d71b34cf5b0ef0924a7de88660c1118993",
+        "refs/tags/v0.4.0": "0360fe1a3d6aadaa05f48507ab585222a7b00e30",
+        "refs/tags/v0.5.0": "a59063b36b07ec6b0476ca8098a8632fdc0860f1",
+        "refs/tags/v0.6.0": "3d256376e18b9d894e8e1be1cb0d9b152c2a4984"
+      },
+      "hosted_on": "github.com",
+      "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg",
+      "name": "xrd-analysis",
+      "subpage": "apps/xrd-analysis.html"
     }
   },
   "categories": {
@@ -130,6 +173,10 @@
     "technique-thermogravimetry": {
       "description": "Tool for thermogravimetric analysis.",
       "title": "TGA"
+    },
+    "technique-xrd": {
+      "description": "Tool for X-ray diffraction analysis.",
+      "title": "XRD"
     }
   }
 }
