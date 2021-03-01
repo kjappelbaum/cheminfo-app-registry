@@ -88,10 +88,6 @@
             },
             "title": "AppGitinfo"
         },
-        "State": {
-          "type": "string",
-          "enum": ["registered", "development", "stable"]
-        },
         "Categories": {
             "type": "object",
             "additionalProperties": false,
