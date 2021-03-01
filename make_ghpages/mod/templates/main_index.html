@@ -27,8 +27,9 @@
           <span class="category"> 
             <a href="https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_" + {{ categories[category]["chemicalMethodsOnotology"] }}> categories[category]["title"] (CHMO: {{ categories[category]["chemicalMethodsOnotology"] }}</a> }
             }</span>
+            {% else %}
+            <span class="category">{{ categories[category]["title"] }}</span>
           {% endif %}
-          <span class="category">{{ categories[category]["title"] }}</span>
           {% endfor %} 
           {% endif %}
         </h2>
