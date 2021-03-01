@@ -83,7 +83,7 @@ xps-analysis:
       $ref: https://raw.githubusercontent.com/cheminfo/xps-analysis/master/package.json#author
     description:
       $ref: https://raw.githubusercontent.com/cheminfo/xps-analysis/master/package.json#description
-    title: baselines
+    title: xps-analysis
     logo: https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal2.svg
     version:
       $ref: https://raw.githubusercontent.com/cheminfo/xps-analysis/master/package.json#version
