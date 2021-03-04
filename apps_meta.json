@@ -151,9 +151,9 @@
         "version": "0.14.1"
       },
       "gitinfo": {
-        "HEAD": "ff27051c2f460bff640f19150d0b29f100b58a69",
+        "HEAD": "47ddfba4656987766d5e8a38b67bc4411050f126",
         "refs/heads/gh-pages": "9a1ee61672fbe8bfed96442fa1466aa4a733ce0d",
-        "refs/heads/master": "ff27051c2f460bff640f19150d0b29f100b58a69",
+        "refs/heads/master": "47ddfba4656987766d5e8a38b67bc4411050f126",
         "refs/heads/release-v0.13.0": "a62022b01fbd45eef00fef8d4404d2d35ad64093",
         "refs/heads/release-v0.14.1": "99d2222b4e54387aa466b2a2b13f3cde8330f64c",
         "refs/pull/12/head": "d51d1efa7f0e8d4517b6968af0f54f52191f1120",
