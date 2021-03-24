@@ -10,13 +10,13 @@
         "description": "baseline correction methods for javascript",
         "title": "baselines",
         "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/chart/scatter.svg",
-        "version": "0.1.2"
+        "version": "1.0.0"
       },
       "gitinfo": {
-        "HEAD": "5c11f201a7ce1122baf48f52179e40efea99a641",
+        "HEAD": "a3e348f1f53a73456b40f04feec08aab66a36712",
         "refs/heads/als": "2ccc1e2ef972db2639f37121ba5073946f6ba02f",
-        "refs/heads/gh-pages": "1907431db31b7a53c48b0ed0014faaf289922945",
-        "refs/heads/master": "5c11f201a7ce1122baf48f52179e40efea99a641",
+        "refs/heads/gh-pages": "3d1d2e9b1b51a2063168750a59dc0038a7c1962c",
+        "refs/heads/master": "a3e348f1f53a73456b40f04feec08aab66a36712",
         "refs/heads/polyfit": "35586e109d20d06432663f541a4f8f41699721ee",
         "refs/heads/release-v0.2.0": "6d7abdfdd423e049e23fee50450d6cc5164b9934",
         "refs/pull/12/head": "89b2f7596b90a6a7e9586d12faf3f290bf840a17",
@@ -26,10 +26,11 @@
         "refs/pull/16/head": "35a6547563a00b101eba012ec02ae890bab5f029",
         "refs/pull/21/head": "291a54e3c0714661de48b3456ee84b9d13679078",
         "refs/pull/22/head": "6d7abdfdd423e049e23fee50450d6cc5164b9934",
-        "refs/pull/22/merge": "669711583fea3f32f227d8b613f7dcd62b1f5230",
+        "refs/pull/23/head": "679f0bd8e25c2e0b09e62e0135330e267eb742f1",
         "refs/tags/v0.1.0": "2a9f40f1d128c314c4cb9bbb33aa99bdc1c64a52",
         "refs/tags/v0.1.1": "d781d55e6767456db6f4836d9f7bb8abcadd355c",
-        "refs/tags/v0.1.2": "4e5da3f5762dc5c0fb8869abfe3c5332610ac356"
+        "refs/tags/v0.1.2": "4e5da3f5762dc5c0fb8869abfe3c5332610ac356",
+        "refs/tags/v1.0.0": "a3e348f1f53a73456b40f04feec08aab66a36712"
       },
       "hosted_on": "github.com",
       "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/chart/scatter.svg",
