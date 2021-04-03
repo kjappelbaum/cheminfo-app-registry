@@ -1,0 +1,56 @@
+[
+  {
+    "name": "tga-spectrum",
+    "version": "0.14.1",
+    "description": "Maiores deleniti molestiae quia beatae. Magni tempora qui quia sint velit beatae. Voluptate nihil molestiae eveniet sit exercitationem dolores exercitationem beatae. Sit sit maiores quisquam sit est eum dolorem et.",
+    "github": "https://github.com/cheminfo/tga-spectrum",
+    "npm": "https://www.npmjs.com/package/tga-spectrum",
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/isotherm/assignment.svg",
+    "lastUpdate": "today",
+    "weeklyDownloads": 5,
+    "technique": {
+      "name": "TGA",
+      "chmo": "0000690",
+      "goldBook": ""
+    },
+    "fileTypes": [
+      {
+        "manufacturer": "Bruker",
+        "extension": "txt",
+        "example": "efr"
+      }
+    ]
+  },
+  {
+    "name": "xrd-spectrum",
+    "version": "0.2.1",
+    "description": "Maiores deleniti molestiae quia beatae. Magni tempora qui quia sint velit beatae. Voluptate nihil molestiae eveniet sit exercitationem dolores exercitationem beatae. Sit sit maiores quisquam sit est eum dolorem et.",
+    "github": "https://github.com/cheminfo/xrd-spectrum",
+    "npm": "https://www.npmjs.com/package/tga-spectrum",
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg",
+    "lastUpdate": "today",
+    "weeklyDownloads": 1000,
+    "technique": {
+      "name": "PXRD",
+      "chmo": "0000158",
+      "goldBook": ""
+    },
+    "fileTypes": [
+      {
+        "manufacturer": "TA instrument",
+        "extension": "txt",
+        "example": "efr"
+      },
+      {
+        "manufacturer": "TA instrument",
+        "extension": "csv",
+        "example": "efr"
+      },
+      {
+        "manufacturer": "cheminfo",
+        "extension": "jcamp",
+        "example": "efr"
+      }
+    ]
+  }
+]
