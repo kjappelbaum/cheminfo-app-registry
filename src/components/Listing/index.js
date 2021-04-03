@@ -26,7 +26,7 @@ function Listing({ app }) {
 
   const columnClasses = clsx('col-span-1');
   const cardClasses = clsx('max-w-sm', 'rounded', 'overflow-hidden shadow-lg');
-
+  const lastUpdateDate = new Date(lastUpdate);
   return (
     <div className={columnClasses} style={{ margin: '1rem 0' }}>
       <div className={cardClasses}>
@@ -55,11 +55,11 @@ function Listing({ app }) {
         </div>
         <ParserTable parserSection={fileTypes} />
 
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mb-2">
           version {version}
         </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          last update {lastUpdate}
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mb-2">
+          last update {lastUpdateDate.toDateString()}
         </span>
         {/* <div>
           <Link to={`/details/${name}`}>App details</Link>

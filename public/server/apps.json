@@ -6,7 +6,7 @@
     "github": "https://github.com/cheminfo/tga-spectrum",
     "npm": "https://www.npmjs.com/package/tga-spectrum",
     "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/isotherm/assignment.svg",
-    "lastUpdate": "today",
+    "lastUpdate": "2011-01-26T19:14:43Z",
     "weeklyDownloads": 5,
     "technique": {
       "name": "TGA",
@@ -28,7 +28,7 @@
     "github": "https://github.com/cheminfo/xrd-spectrum",
     "npm": "https://www.npmjs.com/package/tga-spectrum",
     "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg",
-    "lastUpdate": "today",
+    "lastUpdate": "2019-01-26T19:14:43Z",
     "weeklyDownloads": 1000,
     "technique": {
       "name": "PXRD",

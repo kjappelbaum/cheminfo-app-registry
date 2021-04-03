@@ -5,6 +5,7 @@ const DefaultState = {
   filter: {
     name: null,
     domain: null,
+    sortBy: null,
   },
 };
 
@@ -14,14 +15,23 @@ export const AppListingConsumer = AppListingContext.Consumer;
 
 export class AppListingProvider extends React.Component {
   static applyFilter(apps, filter) {
-    const { name, domain } = filter;
-    console.log(name);
+    const { name, domain, sortBy } = filter;
+    console.log(sortBy);
     let result = apps;
     if (name) {
       result = result.filter((item) =>
         item.name.toLowerCase().includes(name.toLowerCase()),
       );
     }
+    if (sortBy === 'downloads') {
+      result = result.sort((a, b) => b.downloads - a.downloads);
+    }
+    if (sortBy === 'last modified') {
+      result = result.sort(
+        (a, b) => new Date(b.lastUpdate) - new Date(a.lastUpdate),
+      );
+    }
+
     return result;
   }
 

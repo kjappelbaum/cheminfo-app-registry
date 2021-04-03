@@ -27,12 +27,41 @@ const inputClasses = clsx(
   'focus:bg-white',
 );
 
+const dropdownClasses = clsx(
+  'block',
+  'appearance-none',
+  'w-full',
+  'bg-gray-200',
+  'border',
+  'border-gray-200',
+  'text-gray-700',
+  'py-3',
+  'px-4',
+  'pr-8',
+  'rounded',
+  'leading-tight',
+  'focus:outline-none',
+  'focus:bg-white',
+  'focus:border-gray-500',
+);
+
 const DefaultState = {
   name: '',
-  sortBy: ['downloads', 'last modified'],
-  domain: '',
+  sortBy: 'downloads',
+  domain: 'all',
 };
 
+const pointer = (
+  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+    <svg
+      className="fill-current h-4 w-4"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+    >
+      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+    </svg>
+  </div>
+);
 // eslint-disable-next-line react/prefer-stateless-function
 class Filter extends React.Component {
   state = Object.assign({}, DefaultState);
@@ -46,7 +75,13 @@ class Filter extends React.Component {
   render() {
     // const { name, sortBy, domain } = this.state;
     const { updateFilter } = this.props;
-    const domains = ['Machine Learning', 'Physical Chemistry', 'Visualization'];
+    const domains = [
+      'all',
+      'Machine Learning',
+      'Physical Chemistry',
+      'Visualization',
+    ];
+    const sortBy = ['downloads', 'last modified'];
     return (
       <div className={containerClasses}>
         <form
@@ -75,7 +110,7 @@ class Filter extends React.Component {
               </label>
               <div className="relative">
                 <select
-                  className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  className={dropdownClasses}
                   id="domain"
                   value={this.state.domain}
                   onChange={(event) =>
@@ -88,15 +123,29 @@ class Filter extends React.Component {
                     </option>
                   ))}
                 </select>
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                  <svg
-                    className="fill-current h-4 w-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                  </svg>
-                </div>
+                {pointer}
+              </div>
+            </div>
+            <div>
+              <label className={labelClasses} htmlFor="sortBy">
+                sort by
+              </label>
+              <div className="relative">
+                <select
+                  className={dropdownClasses}
+                  id="sortBy"
+                  value={this.state.sortBy}
+                  onChange={(event) =>
+                    this.setState({ sortBy: event.target.value })
+                  }
+                >
+                  {sortBy.map((d) => (
+                    <option key={d} value={d}>
+                      {d}
+                    </option>
+                  ))}
+                </select>
+                {pointer}
               </div>
             </div>
           </div>
