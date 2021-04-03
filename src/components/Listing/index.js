@@ -54,16 +54,17 @@ function Listing({ app }) {
           <div className="text-gray-700 text-base">{description}</div>
         </div>
         <ParserTable parserSection={fileTypes} />
-
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mb-2">
-          version {version}
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mb-2">
-          last update {lastUpdateDate.toDateString()}
-        </span>
-        {/* <div>
+        <div className="mt-1">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mb-2">
+            version {version}
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mb-2">
+            last update {lastUpdateDate.toDateString()}
+          </span>
+          {/* <div>
           <Link to={`/details/${name}`}>App details</Link>
         </div> */}
+        </div>
       </div>
     </div>
   );

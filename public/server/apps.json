@@ -8,6 +8,7 @@
     "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/isotherm/assignment.svg",
     "lastUpdate": "2011-01-26T19:14:43Z",
     "weeklyDownloads": 5,
+    "domain": ["physical chemistry", "materials science"],
     "technique": {
       "name": "TGA",
       "chmo": "0000690",
@@ -30,6 +31,7 @@
     "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg",
     "lastUpdate": "2019-01-26T19:14:43Z",
     "weeklyDownloads": 1000,
+    "domain": ["materials science"],
     "technique": {
       "name": "PXRD",
       "chmo": "0000158",

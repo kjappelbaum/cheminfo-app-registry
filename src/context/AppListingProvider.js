@@ -23,6 +23,15 @@ export class AppListingProvider extends React.Component {
         item.name.toLowerCase().includes(name.toLowerCase()),
       );
     }
+    if (domain) {
+      if (domain.toLowerCase() !== 'all') {
+        result = result.filter((item) =>
+          item.domain
+            .map((d) => d.toLowerCase())
+            .includes(domain.toLowerCase()),
+        );
+      }
+    }
     if (sortBy === 'downloads') {
       result = result.sort((a, b) => b.downloads - a.downloads);
     }
