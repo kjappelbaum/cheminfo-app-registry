@@ -233,6 +233,8 @@
         "refs/heads/release-v0.1.1": "4eb2fdb1f19019d24219fdb020932caf234e8885",
         "refs/pull/1/head": "4eb2fdb1f19019d24219fdb020932caf234e8885",
         "refs/pull/1/merge": "c6d2ff8834c44159fbc685e2e9ad5f31c9fbcc34",
+        "refs/pull/2/head": "d1003420e1594a5f69db8a0411fbc8aeba96457d",
+        "refs/pull/2/merge": "2400f3bf6f87c177fbaf376059b8ba48bbe92039",
         "refs/tags/v0.0.1": "8352749dfd62710a53718ba513761035adf3dca1",
         "refs/tags/v0.0.2": "3de2af57efffd327cbb28a0391ec882c20e6b491",
         "refs/tags/v0.0.3": "36e8742fe9f0e8e434d5570289b79ac4cb5cbf76",
