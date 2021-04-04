@@ -49,6 +49,7 @@ const DefaultState = {
   name: '',
   sortBy: 'downloads',
   domain: 'all',
+  technique: '',
 };
 
 const pointer = (
@@ -101,6 +102,20 @@ class Filter extends React.Component {
                 placeholder="app name"
                 onChange={(event) =>
                   this.handleChange('name', event.target.value)
+                }
+              />
+            </div>
+            <div>
+              <label className={labelClasses} htmlFor="technique">
+                technique
+              </label>
+              <input
+                className={inputClasses}
+                id="technique"
+                type="text"
+                placeholder="technique"
+                onChange={(event) =>
+                  this.handleChange('technique', event.target.value)
                 }
               />
             </div>

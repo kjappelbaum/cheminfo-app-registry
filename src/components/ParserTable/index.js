@@ -2,16 +2,16 @@ import clsx from 'clsx';
 import * as React from 'react';
 import { MdFileDownload } from 'react-icons/md';
 
-const thClass = clsx(
+
+const headClass = clsx(
   'px-6',
   'py-1',
   'text-left',
-  'text-xs',
-  'font-medium',
   'text-gray-500',
   'uppercase',
   'tracking-wider',
 );
+const thClass = clsx(headClass, 'font-medium', 'text-xs');
 
 const tdClass = clsx('px-6', 'py-1', 'whitespace-nowrap');
 function ParserTable({ parserSection }) {
@@ -20,6 +20,7 @@ function ParserTable({ parserSection }) {
   }
   return (
     <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+      <span className={headClass}>Supported formats</span>
       <table className="min-w-full divide-y divide-gray-200">
         <thead className="bg-gray-50">
           <tr>

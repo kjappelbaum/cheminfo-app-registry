@@ -15,12 +15,16 @@ export const AppListingConsumer = AppListingContext.Consumer;
 
 export class AppListingProvider extends React.Component {
   static applyFilter(apps, filter) {
-    const { name, domain, sortBy } = filter;
-    console.log(sortBy);
+    const { name, domain, sortBy, technique } = filter;
     let result = apps;
     if (name) {
       result = result.filter((item) =>
         item.name.toLowerCase().includes(name.toLowerCase()),
+      );
+    }
+    if (technique) {
+      result = result.filter((item) =>
+        item.technique.name.toLowerCase().includes(technique.toLowerCase()),
       );
     }
     if (domain) {
@@ -33,7 +37,7 @@ export class AppListingProvider extends React.Component {
       }
     }
     if (sortBy === 'downloads') {
-      result = result.sort((a, b) => b.downloads - a.downloads);
+      result = result.sort((a, b) => b.weeklyDownloads - a.weeklyDownloads);
     }
     if (sortBy === 'last modified') {
       result = result.sort(

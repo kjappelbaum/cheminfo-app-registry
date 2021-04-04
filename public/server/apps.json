@@ -12,7 +12,7 @@
     "technique": {
       "name": "TGA",
       "chmo": "0000690",
-      "goldBook": ""
+      "iupac": "https://doi.org/10.1351/goldbook.T06324"
     },
     "fileTypes": [
       {
@@ -34,8 +34,7 @@
     "domain": ["materials science"],
     "technique": {
       "name": "PXRD",
-      "chmo": "0000158",
-      "goldBook": ""
+      "chmo": "0000158"
     },
     "fileTypes": [
       {
