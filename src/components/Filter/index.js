@@ -8,7 +8,7 @@ const labelClasses = clsx(
   'uppercase',
   'tracking-wide',
   'text-gray-700',
-  'text-xs',
+  'text-md',
   'font-bold',
   'mb-2',
 );

@@ -2,3 +2,5 @@ cheminfo:
   - tga-spectrum
   - xrd-analysis
   - isotherm-analysis
+  - baselines
+  - mass-spectrum
