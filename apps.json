@@ -1,1 +1,29 @@
-[{"name":"tga-spectrum","version":"0.14.1","description":"","github":"https://github.com/cheminfo/tga-spectrum","npm":"https://www.npmjs.com/package/tga-spectrum","lastUpdate":"2021-03-04T06:22:20Z","weeklyDownloads":21}]
+[
+  {
+    "name": "tga-spectrum",
+    "version": "0.14.1",
+    "description": "",
+    "github": "https://github.com/cheminfo/tga-spectrum",
+    "npm": "https://www.npmjs.com/package/tga-spectrum",
+    "lastUpdate": "2021-03-04T06:22:20Z",
+    "weeklyDownloads": 21
+  },
+  {
+    "name": "xrd-analysis",
+    "version": "0.7.0",
+    "description": "",
+    "github": "https://github.com/cheminfo/xrd-analysis",
+    "npm": "https://www.npmjs.com/package/xrd-analysis",
+    "lastUpdate": "2021-03-31T08:24:44Z",
+    "weeklyDownloads": 54
+  },
+  {
+    "name": "isotherm-analysis",
+    "version": "0.3.1",
+    "description": "Parse and analyze isotherms",
+    "github": "https://github.com/cheminfo/isotherm-analysis",
+    "npm": "https://www.npmjs.com/package/isotherm-analysis",
+    "lastUpdate": "2021-02-02T10:33:05Z",
+    "weeklyDownloads": 0
+  }
+]

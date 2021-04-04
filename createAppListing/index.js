@@ -57,9 +57,15 @@ async function gatherInformation(organization, repo) {
 async function createAppListing() {
   const repos = getRepoList();
   let compiledInfo = [];
-  let data = await gatherInformation('cheminfo', 'tga-spectrum');
-  compiledInfo.push(data);
-  console.log(compiledInfo);
+  const organizations = Object.keys(repos);
+  for (let i = 0; i < organizations.length; i++) {
+    const repositoryNames = repos[organizations[i]];
+    for (let j = 0; j < repositoryNames.length; j++) {
+      let data = await gatherInformation(organizations[i], repositoryNames[j]);
+      compiledInfo.push(data);
+    }
+  }
+
   fs.writeFile('apps.json', JSON.stringify(compiledInfo), (err) => {
     if (err) {
       throw err;
