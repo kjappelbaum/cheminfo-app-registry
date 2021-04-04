@@ -256,6 +256,7 @@
         "HEAD": "8461d5726d439b105e22be99a3c8963efd2432d3",
         "refs/heads/gh-pages": "234774da4122a630149b2c8cfb62fbfefa0f01e1",
         "refs/heads/master": "8461d5726d439b105e22be99a3c8963efd2432d3",
+        "refs/heads/metadata": "c36e60e8671ddd152c985e3f3f647738bae99f21",
         "refs/heads/release-v0.5.0": "2ac8b0ed4f03b1dbf25d5b0b47fc7ce939640438",
         "refs/heads/release-v0.7.0": "d34422f6e3d971a95447af84441f4a91ca3fa3f3",
         "refs/heads/typos": "70c5256ed3c1f0b4954e2dd843b1a9a8dbabb82b",
