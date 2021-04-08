@@ -105,12 +105,12 @@
         "description": "Parse and analyze isotherms",
         "title": "isotherm-analysis",
         "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/isotherm/assignment.svg",
-        "version": "0.4.0"
+        "version": "0.4.1"
       },
       "gitinfo": {
-        "HEAD": "51b41a2e405d83441052f7bdcc3a9971cf3e329f",
-        "refs/heads/gh-pages": "8e5a3b6af58c2f8d6b1b27ff95747fa672d3d9fa",
-        "refs/heads/master": "51b41a2e405d83441052f7bdcc3a9971cf3e329f",
+        "HEAD": "b718bb2984eb4b0471dd5662c82406cf572f1f2d",
+        "refs/heads/gh-pages": "791d93614fbe1ec2e3dabec3243be0dabaff48d7",
+        "refs/heads/master": "b718bb2984eb4b0471dd5662c82406cf572f1f2d",
         "refs/heads/metadata": "466546ee64d112bee3769fef31f5571c63601b8b",
         "refs/heads/release-v0.1.5": "cfe708c3e832e535a6f0c7e2c465c70c45b3f5a8",
         "refs/heads/release-v0.2.0": "96b3d9558b4dc4629a0a39b13613a474a0549ebe",
@@ -128,6 +128,8 @@
         "refs/pull/34/merge": "60c937949d81528a9ac1394d536ae3ad2e8d0f33",
         "refs/pull/36/head": "71b88f9d52749046885fc71c28f48b26cdefd226",
         "refs/pull/37/head": "ff3a2c470ca82db01a9571f2a5a13cee055f0564",
+        "refs/pull/38/head": "8317055bec8803540ed3fcb553d928c34e2835da",
+        "refs/pull/39/head": "d84eaab1e69fa5b807fd70258c8667b171e1c32c",
         "refs/tags/v0.1.0": "b5dc663b996e36f2e0518b14c3ff0b7692daa76d",
         "refs/tags/v0.1.0^{}": "952e30e15aa5964bdc9b4a41ed30ae4d26ae9b74",
         "refs/tags/v0.1.1": "d2f736aed0bbebf3f8918bafabccb41d2d8a62ce",
@@ -139,7 +141,8 @@
         "refs/tags/v0.2.0": "8471584353e2973c0f4599efbf4defaf756c83dc",
         "refs/tags/v0.3.0": "fbb4dd2a0f3f85810465d488ab05351070f59697",
         "refs/tags/v0.3.1": "e3d91c17365e4ce0585e0bda9170468ae668dd13",
-        "refs/tags/v0.4.0": "51b41a2e405d83441052f7bdcc3a9971cf3e329f"
+        "refs/tags/v0.4.0": "51b41a2e405d83441052f7bdcc3a9971cf3e329f",
+        "refs/tags/v0.4.1": "b718bb2984eb4b0471dd5662c82406cf572f1f2d"
       },
       "hosted_on": "github.com",
       "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/isotherm/assignment.svg",
