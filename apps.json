@@ -2,28 +2,122 @@
   {
     "name": "tga-spectrum",
     "version": "0.14.1",
-    "description": "",
+    "description": "tga-spectrum provides tools to convert output files from thermogravimetric analysis (TGA) into JCAMP-DX, as well as tools to analyze the data (mass loss analysis)",
     "github": "https://github.com/cheminfo/tga-spectrum",
     "npm": "https://www.npmjs.com/package/tga-spectrum",
-    "lastUpdate": "2021-03-04T06:22:20Z",
-    "weeklyDownloads": 21
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/tga/assignment.svg",
+    "lastUpdate": "2021-04-08T16:58:27Z",
+    "monthlyDownloads": 84,
+    "domain": ["Physical Chemistry", "Materials Science"],
+    "technique": {
+      "name": "TGA",
+      "chmo": "0000690",
+      "iupac": "https://doi.org/10.1351/goldbook.T06324"
+    },
+    "fileTypes": [
+      {
+        "extension": "txt",
+        "manufacturer": "TA Instruments",
+        "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/TAInstruments.txt"
+      },
+      {
+        "extension": "csv",
+        "manufacturer": "Perkin Elmer",
+        "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/perkinElmer.csv"
+      },
+      {
+        "extension": "txt",
+        "manufacturer": "Perkin Elmer",
+        "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/perkinElmer_tga4000.txt"
+      },
+      {
+        "extension": "jcamp",
+        "manufacturer": "cheminfo",
+        "example": "https://raw.githubusercontent.com/cheminfo/tga-spectrum/master/testFiles/ntuples.jdx"
+      }
+    ]
   },
   {
     "name": "xrd-analysis",
     "version": "0.7.0",
-    "description": "",
+    "description": "xrd-analysis can convert output files from powder-xray diffraction into JCAMP-DX format and perform analysis (Scherrer equation, ...) on the diffractograms",
     "github": "https://github.com/cheminfo/xrd-analysis",
     "npm": "https://www.npmjs.com/package/xrd-analysis",
-    "lastUpdate": "2021-03-31T08:24:44Z",
-    "weeklyDownloads": 54
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal.svg",
+    "lastUpdate": "2021-04-08T16:58:49Z",
+    "monthlyDownloads": 79,
+    "domain": ["Physical Chemistry", "Materials Science"],
+    "technique": {
+      "name": "PXRD",
+      "chmo": "0000158",
+      "iupac": "https://doi.org/10.1351/goldbook.D01712"
+    },
+    "fileTypes": [
+      {
+        "extension": "brml",
+        "manufacturer": "Bruker",
+        "example": "https://github.com/cheminfo/xrd-analysis/blob/master/testFiles/test.brml?raw=true"
+      },
+      {
+        "extension": "xy",
+        "manufacturer": "PowDLL",
+        "example": "https://raw.githubusercontent.com/cheminfo/xrd-analysis/master/testFiles/MG1-Cu2O-28_bg_subtracted.xy"
+      }
+    ]
   },
   {
     "name": "isotherm-analysis",
-    "version": "0.3.1",
-    "description": "Parse and analyze isotherms",
+    "version": "0.4.2",
+    "description": "isotherm-analysis allows to parse and analyze isotherms. It converts from multiple formats to JCAMP-DX and provides utilities for basic analysis.",
     "github": "https://github.com/cheminfo/isotherm-analysis",
     "npm": "https://www.npmjs.com/package/isotherm-analysis",
-    "lastUpdate": "2021-02-02T10:33:05Z",
-    "weeklyDownloads": 0
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/isotherm/assignment.svg",
+    "lastUpdate": "2021-04-08T16:59:18Z",
+    "monthlyDownloads": 31,
+    "domain": ["Physical Chemistry", "Materials Science"],
+    "technique": {
+      "name": "Isotherm",
+      "chmo": "0001992",
+      "iupac": "https://doi.org/10.1351/goldbook.AT06934"
+    },
+    "fileTypes": [
+      {
+        "extension": "csv",
+        "manufacturer": "Micrometrics",
+        "example": "https://raw.githubusercontent.com/cheminfo/isotherm-analysis/master/testFiles/micrometrics.csv"
+      },
+      {
+        "extension": "txt",
+        "manufacturer": "IGA",
+        "example": "https://raw.githubusercontent.com/cheminfo/isotherm-analysis/master/testFiles/IGA_raw_no_blank.txt"
+      },
+      {
+        "extension": "txt",
+        "manufacturer": "Micrometrics",
+        "example": "https://raw.githubusercontent.com/cheminfo/isotherm-analysis/master/testFiles/GVM-BET-Gemini.VII.2390.v1.03.TXT"
+      },
+      {
+        "extension": "xls",
+        "manufacturer": "Belsorp",
+        "example": "https://github.com/cheminfo/isotherm-analysis/blob/master/testFiles/BET.xls?raw=true"
+      },
+      {
+        "extension": "csv",
+        "manufacturer": "DVS-Vacuum",
+        "example": "https://raw.githubusercontent.com/cheminfo/isotherm-analysis/master/testFiles/CO2H2O_25C_30RH.csv"
+      }
+    ]
+  },
+  {
+    "name": "baselines",
+    "version": "1.0.0",
+    "description": "baselines provides a collection of baseline correction methods.",
+    "github": "https://github.com/cheminfo/baselines",
+    "npm": "https://www.npmjs.com/package/baselines",
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/chart/scatter-line.svg",
+    "lastUpdate": "2021-04-08T16:41:59Z",
+    "monthlyDownloads": 515,
+    "domain": ["Visualization"],
+    "technique": { "name": "Baseline Correction" }
   }
 ]

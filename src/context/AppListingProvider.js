@@ -37,7 +37,7 @@ export class AppListingProvider extends React.Component {
       }
     }
     if (sortBy === 'downloads') {
-      result = result.sort((a, b) => b.weeklyDownloads - a.weeklyDownloads);
+      result = result.sort((a, b) => b.monthlyDownloads - a.monthlyDownloads);
     }
     if (sortBy === 'last modified') {
       result = result.sort(

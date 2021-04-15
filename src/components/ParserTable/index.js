@@ -2,7 +2,6 @@ import clsx from 'clsx';
 import * as React from 'react';
 import { MdFileDownload } from 'react-icons/md';
 
-
 const headClass = clsx(
   'px-6',
   'py-1',

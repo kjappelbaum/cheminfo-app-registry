@@ -3,23 +3,29 @@ import * as React from 'react';
 import { IconContext } from 'react-icons';
 import { AiFillGithub } from 'react-icons/ai';
 import { DiNpm } from 'react-icons/di';
-import { FaExternalLinkAlt } from 'react-icons/fa';
 
 import ParserTable from '../ParserTable';
 
 function Technique({ technique }) {
   let chmo = '';
   let iupac = '';
-  if (technique.chmo) {
-    const url = `http://purl.obolibrary.org/obo/CHMO_${technique.chmo}`;
-    chmo = <a href={url}>CHMO: {technique.chmo}</a>;
-  }
-  if (technique.iupac) {
-    iupac = <a href={technique.iupac}>IUPAC</a>;
+  if (technique.chmo | technique.iupac) {
+    if (technique.chmo) {
+      const url = `http://purl.obolibrary.org/obo/CHMO_${technique.chmo}`;
+      chmo = <a href={url}>CHMO: {technique.chmo}</a>;
+    }
+    if (technique.iupac) {
+      iupac = <a href={technique.iupac}>IUPAC</a>;
+    }
+    return (
+      <div className="font-bold text-large mb-2 mt-2 text-gray-700">
+        {technique.name} ({chmo} {iupac})
+      </div>
+    );
   }
   return (
     <div className="font-bold text-large mb-2 mt-2 text-gray-700">
-      {technique.name} ({chmo} {iupac})
+      {technique.name}
     </div>
   );
 }
@@ -37,16 +43,21 @@ function Listing({ app }) {
     npm,
     logo,
     lastUpdate,
-    weeklyDownloads,
+    monthlyDownloads,
     technique,
     fileTypes,
   } = app;
 
-  const columnClasses = clsx('col-span-1');
-  const cardClasses = clsx('max-w-sm', 'rounded', 'overflow-hidden shadow-lg');
+  const columnClasses = clsx('col-span-2');
+  const cardClasses = clsx(
+    'max-w-xl',
+    'rounded',
+    'shadow-lg',
+    'overflow-hidden',
+  );
   const lastUpdateDate = new Date(lastUpdate);
   return (
-    <div className={columnClasses} style={{ margin: '1rem 0' }}>
+    <div className={columnClasses}>
       <div className={cardClasses}>
         <img className="w-ful" src={`${logo}`} />
 
@@ -66,7 +77,7 @@ function Listing({ app }) {
                 </a>
               </div>
               <div className="col-span-3">
-                weekly downloads: {weeklyDownloads}
+                monthly downloads: {monthlyDownloads}
               </div>
             </IconContext.Provider>
           </div>

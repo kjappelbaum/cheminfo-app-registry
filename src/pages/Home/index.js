@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 import '../../assets/tailwind.css';
+import Filter from '../../components/Filter';
 import Hero from '../../components/Hero';
 import Listing from '../../components/Listing';
-import Filter from '../../components/Filter';
 import {
   AppListingProvider,
   AppListingConsumer,
@@ -19,7 +19,7 @@ function Home() {
             {({ apps, updateFilter }) => (
               <>
                 <Filter updateFilter={updateFilter} />
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-8  gap-2">
                   {apps.map((app) => (
                     <Listing key={app.name} app={app} />
                   ))}

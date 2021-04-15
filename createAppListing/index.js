@@ -12,6 +12,11 @@ function getRepoList() {
 async function getRepoInfo(organization, repo) {
   const repoStats = await fetch(
     `https://api.github.com/repos/${organization}/${repo}`,
+    {
+      headers: {
+        Authorization: organization,
+      },
+    },
   );
   return repoStats.json();
 }
@@ -24,10 +29,10 @@ async function getPackageJSON(organization, repo, branch) {
 }
 
 async function getNPMDownloads(name) {
-  const downloadsLastWeek = await fetch(
-    `https://api.npmjs.org/downloads/point/last-week/${name}`,
+  const downloadsLastMonth = await fetch(
+    `https://api.npmjs.org/downloads/point/last-month/${name}`,
   );
-  return downloadsLastWeek.json();
+  return downloadsLastMonth.json();
 }
 
 async function gatherInformation(organization, repo) {
@@ -44,12 +49,12 @@ async function gatherInformation(organization, repo) {
   result.description = packageJSON.description;
   result.github = `https://github.com/${organization}/${repo}`;
   result.npm = `https://www.npmjs.com/package/${packageJSON.name}`;
-  // result.logo = packageJSON.cheminfo.logo;
+  result.logo = packageJSON.cheminfo.logo;
   result.lastUpdate = repoStats.updated_at;
-  result.weeklyDownloads = downloads.downloads;
-  // result.domain = packageJSON.cheminfo.domain;
-  // result.technique = packageJSON.cheminfo.technique;
-  // result.fileTypes = packageJSON.cheminfo.functionality.fileTypes;
+  result.monthlyDownloads = downloads.downloads;
+  result.domain = packageJSON.cheminfo.domain;
+  result.technique = packageJSON.cheminfo.technique;
+  result.fileTypes = packageJSON.cheminfo.functionality.fileTypes;
 
   return result;
 }
