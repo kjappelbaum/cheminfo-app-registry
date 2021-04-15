@@ -63,7 +63,7 @@ const pointer = (
     </svg>
   </div>
 );
-// eslint-disable-next-line react/prefer-stateless-function
+
 class Filter extends React.Component {
   state = Object.assign({}, DefaultState);
 

@@ -2,6 +2,7 @@
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
+// eslint-disable-next-line import/no-unassigned-import
 import '@testing-library/jest-dom/extend-expect';
 
 import { render } from '@testing-library/react';
