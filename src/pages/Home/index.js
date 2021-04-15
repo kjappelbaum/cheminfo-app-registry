@@ -19,7 +19,7 @@ function Home() {
             {({ apps, updateFilter }) => (
               <>
                 <Filter updateFilter={updateFilter} />
-                <div className="grid grid-cols-8  gap-2">
+                <div className="grid grid-cols-6 gap-2">
                   {apps.map((app) => (
                     <Listing key={app.name} app={app} />
                   ))}

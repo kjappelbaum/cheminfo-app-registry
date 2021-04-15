@@ -62,9 +62,9 @@ function Listing({ app }) {
         <img className="w-ful" src={`${logo}`} />
 
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">{name}</div>
+          <div className="font-bold text-lg mb-2">{name}</div>
           <Technique technique={technique} />
-          <div className="grid grid-cols-5 mb-2 mt-2">
+          <div className="grid grid-cols-2 mb-2 mt-2">
             <IconContext.Provider value={{ size: '2em' }}>
               <div className="col-span-1">
                 <a href={github}>
