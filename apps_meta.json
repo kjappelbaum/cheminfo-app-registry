@@ -77,14 +77,14 @@
       "git_url": "https://github.com/cheminfo/fluid-properties.git",
       "metadata": {
         "authors": "Kevin M. Jablonka",
-        "description": "Calculate thermodynamic properties of molecular fluids",
+        "description": "fluid-properties calculates thermodynamic properties of molecular fluids.",
         "title": "fluid-properties",
         "version": "0.1.1"
       },
       "gitinfo": {
-        "HEAD": "ad78878478446f04791d1665eab42b1bc4a42e67",
+        "HEAD": "48862e0bafdb14a21aa0739ce4852cc9ace36c5b",
         "refs/heads/gh-pages": "017e74c2bd422927282714436590433e623cd8bc",
-        "refs/heads/master": "ad78878478446f04791d1665eab42b1bc4a42e67",
+        "refs/heads/master": "48862e0bafdb14a21aa0739ce4852cc9ace36c5b",
         "refs/pull/2/head": "0b41961038f1182db44137f41b4c81ae19a1657d",
         "refs/pull/7/head": "d025d86c11c4b9c1b0ca7f6dbda91d25b78733d3",
         "refs/tags/v0.1.0": "a6b731a3f1af67f01436047c0ef7c5be590f409b",
