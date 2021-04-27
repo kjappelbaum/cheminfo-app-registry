@@ -243,6 +243,7 @@
       "gitinfo": {
         "HEAD": "2acd5e05510e39ec8ea4badb11b9f5c7a78b6344",
         "refs/heads/master": "2acd5e05510e39ec8ea4badb11b9f5c7a78b6344",
+        "refs/heads/meta": "0b5c8d3cd1dd6fbe3c61384ca903577a774f7575",
         "refs/heads/release-v0.1.1": "5eccb5cd30ad7953e042df9122233349b1c358c8",
         "refs/pull/1/head": "5eccb5cd30ad7953e042df9122233349b1c358c8",
         "refs/pull/1/merge": "b948219f023fa260a7e1e10f82474b2ba0b6a36d",
