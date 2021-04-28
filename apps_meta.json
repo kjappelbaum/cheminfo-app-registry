@@ -238,25 +238,26 @@
         "description": "XPS analysis",
         "title": "xps-analysis",
         "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal2.svg",
-        "version": "0.1.0"
+        "version": "0.2.0"
       },
       "gitinfo": {
-        "HEAD": "28d75f7811e1c1895940a0e0e5e5542717751960",
-        "refs/heads/master": "28d75f7811e1c1895940a0e0e5e5542717751960",
+        "HEAD": "7255df42b8a29304be4078c50b2c7ab020ac694b",
+        "refs/heads/gh-pages": "15ca73714fa2910c1f1621cfbf26a304300f7301",
+        "refs/heads/master": "7255df42b8a29304be4078c50b2c7ab020ac694b",
         "refs/heads/meta": "52db998f5667408002e50db13316db61189e9bd8",
         "refs/heads/release-v0.1.1": "5eccb5cd30ad7953e042df9122233349b1c358c8",
-        "refs/heads/release-v0.2.0": "ebf0b42757eb5d831f2272c6ef5fb14d4f3ce2ba",
+        "refs/heads/release-v0.2.0": "1a320aefb6e56f6c46578d10f25d42d7fa27c0f5",
         "refs/pull/1/head": "5eccb5cd30ad7953e042df9122233349b1c358c8",
         "refs/pull/2/head": "d1003420e1594a5f69db8a0411fbc8aeba96457d",
         "refs/pull/3/head": "fceed0fbc5066137556a9b2a1611d415ac303d35",
         "refs/pull/4/head": "9676c41520ba420984be047087b61140013bc843",
-        "refs/pull/5/head": "ebf0b42757eb5d831f2272c6ef5fb14d4f3ce2ba",
-        "refs/pull/5/merge": "327531a8cee5b26ad4e434a15ea93088653c12eb",
+        "refs/pull/5/head": "1a320aefb6e56f6c46578d10f25d42d7fa27c0f5",
         "refs/tags/v0.0.1": "8352749dfd62710a53718ba513761035adf3dca1",
         "refs/tags/v0.0.2": "3de2af57efffd327cbb28a0391ec882c20e6b491",
         "refs/tags/v0.0.3": "36e8742fe9f0e8e434d5570289b79ac4cb5cbf76",
         "refs/tags/v0.1.0": "db278ecd08eca0813cabb9d1430063c4738e66be",
-        "refs/tags/v0.1.0^{}": "ebe3c2b814d13b37a620cdbe83b523744fae2828"
+        "refs/tags/v0.1.0^{}": "ebe3c2b814d13b37a620cdbe83b523744fae2828",
+        "refs/tags/v0.2.0": "7255df42b8a29304be4078c50b2c7ab020ac694b"
       },
       "hosted_on": "github.com",
       "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/misc/cristal2.svg",
