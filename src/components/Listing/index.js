@@ -59,9 +59,9 @@ function Listing({ app }) {
   return (
     <div className={columnClasses}>
       <div className={cardClasses}>
-        <img className="w-ful" src={`${logo}`} />
+        <img className="w-3/4 mx-auto text-center" src={`${logo}`} />
 
-        <div className="px-6 py-4">
+        <div className="px-2 py-4">
           <div className="font-bold text-lg mb-2">{name}</div>
           <Technique technique={technique} />
           <div className="grid grid-cols-2 mb-2 mt-2">

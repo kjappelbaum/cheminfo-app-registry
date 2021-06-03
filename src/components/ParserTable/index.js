@@ -3,7 +3,7 @@ import * as React from 'react';
 import { MdFileDownload } from 'react-icons/md';
 
 const headClass = clsx(
-  'px-6',
+  'px-2',
   'py-1',
   'text-left',
   'text-gray-500',
@@ -12,7 +12,7 @@ const headClass = clsx(
 );
 const thClass = clsx(headClass, 'font-medium', 'text-xs');
 
-const tdClass = clsx('px-6', 'py-1', 'whitespace-nowrap');
+const tdClass = clsx('px-2', 'py-1', 'whitespace-nowrap');
 function ParserTable({ parserSection }) {
   if (!parserSection) {
     return null;
